@@ -16,6 +16,7 @@ public class IterativeMethods {
 		double sum = 0.0;
 		for (int power = 1; power <= n; ++power) {
 			sum = sum + Math.pow(0.5, power);
+			
 		}
 		return sum;
 	}
